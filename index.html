@@ -529,6 +529,42 @@
     letter-spacing: 0.04em;
   }
 
+  /* --- CERTIFICATIONS --- */
+  .certification-block {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .certification-item {
+    padding: 1.25rem 1.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 2px solid var(--accent);
+    border-radius: 2px;
+  }
+
+  .certification-degree {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.2rem;
+  }
+
+  .certification-company {
+    font-size: 0.8rem;
+    color: var(--muted2);
+  }
+
+  .certification-year {
+    font-size: 0.72rem;
+    color: var(--accent);
+    margin-top: 0.3rem;
+    letter-spacing: 0.08em;
+  }
+
   /* --- RESUME --- */
   .resume-section {
     display: grid;
@@ -931,19 +967,18 @@
   </div>
   <div class="projects-grid">
 
-    <div class="project-card reveal">
-      <div class="project-thumb">
-        <div class="edu-item">
-          <div class="edu-degree">SolidWorks</div>
-          <div class="edu-school">CSW – Associate</div>
-          <div class="edu-year">Dassault Systèmes · 2021</div>
-        </div>
-        <!--
-        <div class="edu-item">
-          <div class="edu-degree">B.S. Mechanical Engineering</div>
-          <div class="edu-school">University of California, Los Angeles (UCLA)</div>
-          <div class="edu-year">Graduated 2024</div>
-        </div>-->
+    <div class="certification-block">
+      <div class="certification-item">
+        <div class="certification-degree">SolidWorks</div>
+        <div class="certification-school">CSW – Associate</div>
+        <div class="certification-year">Dassault Systèmes · 2021</div>
+      </div>
+      <!--
+      <div class="certification-item">
+        <div class="certification-degree">B.S. Mechanical Engineering</div>
+        <div class="certification-school">University of California, Los Angeles (UCLA)</div>
+        <div class="certification-year">Graduated 2024</div>
+      </div>-->
       </div>
     </div>
   </div>
